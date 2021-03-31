@@ -4,7 +4,7 @@ $(document).ready(function() {
     dots: false,
     margin: 75,
     nav: true,
-    navText: ["<img src='_i/left.png'>", "<img src='_i/right.png'>"],
+    navText: ["<img src='./img/left.png'>", "<img src='./img/right.png'>"],
     loop: true,
     autoplay: false,
     center: false,
