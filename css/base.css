@@ -143,10 +143,10 @@ table {
 
 @font-face {
   font-family: "Segoe UI Regular";
-  src: url("../_f/S_UI_R.eot");
-  src: url("../_f/S_UI_R.eot?#iefix") format("embedded-opentype"),
-    url("../_f/S_UI_R.woff") format("woff"),
-    url("../_f/S_UI_R.ttf") format("truetype");
+  src: url("../fonts/S_UI_R.eot");
+  src: url("../fonts/S_UI_R.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/S_UI_R.woff") format("woff"),
+    url("../fonts/S_UI_R.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -154,16 +154,16 @@ table {
 @font-face {
   font-family: "Cheque";
   src: local("Cheque Regular"), local("Cheque-Regular"),
-    url("../_f/C_R.woff2") format("woff2"), url("../_f/C_R.woff") format("woff"),
-    url("../_f/C_R.ttf") format("truetype");
+    url("../fonts/C_R.woff2") format("woff2"), url("../fonts/C_R.woff") format("woff"),
+    url("../fonts/C_R.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Cheque";
   src: local("Cheque Black"), local("Cheque-Black"),
-    url("../_f/C_B.woff2") format("woff2"), url("../_f/C_B.woff") format("woff"),
-    url("../_f/C_B.ttf") format("truetype");
+    url("../fonts/C_B.woff2") format("woff2"), url("../fonts/C_B.woff") format("woff"),
+    url("../fonts/C_B.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
@@ -171,8 +171,8 @@ table {
 @font-face {
   font-family: "Lato";
   src: local("Lato Regular"), local("Lato-Regular"),
-    url("../f/L_R.woff2") format("woff2"), url("../f/L_R.woff") format("woff"),
-    url("../f/L_R.ttf") format("truetype");
+    url("../fonts/L_R.woff2") format("woff2"), url("../fonts/L_R.woff") format("woff"),
+    url("../fonts/L_R.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -511,7 +511,7 @@ ul {
   right: 17px;
   top: 6px;
   background-color: transparent;
-  background: url(../_i/icon_loopa.png) no-repeat;
+  background: url('../img/icon_loopa.png') no-repeat;
 }
 .wis-header-top-search input:focus {
   border: 2px solid #f19813;
@@ -542,7 +542,7 @@ ul {
   content: "";
   width: 28px;
   height: 20px;
-  background: url(../_i/icon-pochta.png);
+  background: url("../img/icon-pochta.png");
   display: block;
   float: left;
   margin-right: 10px;
@@ -630,7 +630,7 @@ ul {
   content: "";
   width: 20px;
   height: 28px;
-  background: url(../_i/icon-adress.png) no-repeat;
+  background: url("../img/icon-adress.png") no-repeat;
   display: block;
   float: right;
   margin-left: 10px;
@@ -738,7 +738,7 @@ ul {
   width: 330px;
   height: 251px;
   background-color: unset;
-  bacground: url(../_i/carousel-img-1.png);
+  bacground: url('../img/carousel-img-1.png');
 }
 
 .wis-header-main-nav-list-link-li-line {
@@ -753,7 +753,7 @@ ul {
 
 .wis-header-main-nav-list li:hover .wis-header-main-nav-list-link-li-line {
   /*! display: block; */
-  z-index: 999999999999999;
+  z-index: 99;
 }
 
 .wis-header-main-phone {
@@ -800,7 +800,7 @@ ul {
 
 .wis-carousel-container {
   height: 355px;
-  background: url(../_i/bg-carousel.png) no-repeat;
+  background: url('../img/bg-carousel.png') no-repeat;
   background-color: #ba9e6a;
   padding-left: 30px;
   padding-right: 30px;
@@ -880,7 +880,7 @@ ul {
   float: right;
 }
 .wis-carousel-container-top-text p{
-  
+
 }
 .wis-owlcarousel-slide a:hover .wis-owlcarousel-slide-block-text {
   height: 100%;
@@ -979,7 +979,7 @@ ul {
   line-height: 1.18;
   overflow: hidden;
   float: left;
-} 
+}
 
 .wis-main-block-left h4:after{
   content:"";
@@ -1108,7 +1108,7 @@ ul {
 
 .wis-main-block-down-right-typeroom-list a {
   color: #44200a;
-  box-shadow: inset 0 -0.1em #44200a; 
+  box-shadow: inset 0 -0.1em #44200a;
 }
 
 .wis-main-block-down-right-typeroom-list a:hover {
@@ -1142,7 +1142,7 @@ ul {
 /* АКЦИИ */
 
 .wis-sale-block {
-  background-image: url(../_i/bg-sale.png);
+  background-image: url('../img/bg-sale.png');
   background-color: #ffeab6;
 }
 
@@ -1226,7 +1226,7 @@ ul {
 
 .wis-sale-div-text-block {
   padding-top: 35px;
-  padding-bottom: 38px; 
+  padding-bottom: 38px;
   padding-left: 13px;
   padding-right: 13px;
   height: 100%;
@@ -1266,7 +1266,7 @@ ul {
 }
 .wis-sale-div-text-hover-block {
   padding-top: 35px;
-  padding-bottom: 38px; 
+  padding-bottom: 38px;
   padding-left: 30px;
   height: 100%;
   display: block;
@@ -1344,7 +1344,7 @@ ul {
   font-family: "Segoe UI";
   font-size: 16px;
   font-weight: 400;
-  padding-bottom: 18px;  
+  padding-bottom: 18px;
 }
 .wis-sale-news-element-text-down {
   display: block;
@@ -1379,7 +1379,7 @@ ul {
   padding-top: 27px;
 }
 .wis-wooter-down {
-  background-image: url(../_i/bg-footer.png);
+  background-image: url('../img/bg-footer.png');
   overflow: hidden;
 }
 
@@ -1470,7 +1470,7 @@ padding-bottom: 17px;
 
 .wis-footer-down-wiserv::after {
   content: "";
-  background: url(../_i/wiserv-icon.png);
+  background: url('../img/wiserv-icon.png');
   top: 0;
   left: 0;
   width: 26px;
